@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>StickyScroll Demo</title>
+  <style>
+    body {
+      background: #fff;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      background: #eee;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+
+    .wrap {
+      display: flex;
+    }
+
+    .main-wrap {
+      flex: 2 2 800px;
+    }
+
+    main {
+      background: #eee;
+      height: 300vh;
+    }
+
+    .sidebar-wrap {
+      flex: 1 1 400px;
+    }
+
+    sidebar {
+      display: block;
+      position: sticky;
+      top: 0;
+      height: calc(100vh - 20px);
+      background: #eee;
+      margin-left: 20px;
+      padding: 10px;
+    }
+
+    footer {
+      background: #eee;
+      height: 300px;
+      margin-top: 20px;
+    }
+  </style>
+  <script src="../dist/sticky-scroll.js"></script>
+</head>
+
+<body>
+
+  <header></header>
+
+  <div class="wrap">
+    <div class="main-wrap">
+      <main></main>
+    </div>
+    <div class="sidebar-wrap">
+      <sidebar>
+        <ol>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+        </ol>
+      </sidebar>
+    </div>
+  </div>
+
+  <footer></footer>
+
+  <script>
+    new StickyScroll('sidebar')
+  </script>
+</body>
+
+</html>
