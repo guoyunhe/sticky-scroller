@@ -3,7 +3,6 @@
  */
 class StickyScroll {
   constructor(element, options) {
-    this._version = "0.1.0";
     this.newScrollPosition = 0;
     this.oldScrollPositon = 0;
     this.ticking = false;
@@ -55,9 +54,6 @@ class StickyScroll {
 }
 
 export default StickyScroll;
-
-// Global
-window.StickyScroll = StickyScroll;
 
 // jQuery plugin (optional)
 if (typeof jQuery !== "undefined") {

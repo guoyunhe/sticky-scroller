@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = [
   // VAR
+  // Load through link and use as variable without import
   {
     mode: "production",
     entry: "./index.js",
@@ -13,6 +14,7 @@ module.exports = [
   },
 
   // AMD
+  // Import with RequireJS
   {
     mode: "production",
     entry: "./index.js",
@@ -25,6 +27,7 @@ module.exports = [
   },
 
   // UMD
+  // Import with SystemJS
   {
     mode: "production",
     entry: "./index.js",
