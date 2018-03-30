@@ -53,4 +53,4 @@ class StickyScroll {
   }
 }
 
-export default StickyScroll;
+module.exports = StickyScroll;
