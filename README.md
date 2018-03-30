@@ -146,3 +146,11 @@ The sticky element. Use a selector string or HTMLElement object.
 #### options `Object`
 
 No option available now.
+
+## Copyright
+
+Copyright 2018 Guo Yunhe.
+
+## License
+
+GNU General Public License version 3 or later.
