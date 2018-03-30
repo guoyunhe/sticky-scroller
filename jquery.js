@@ -1,4 +1,4 @@
-import { StickyScroll } from "./index";
+import { StickyScroller } from "./index";
 
 /**
  * Make the sticky positioned element scroll with window
@@ -6,12 +6,12 @@ import { StickyScroll } from "./index";
  * @param {string} options Selector or element or jQuery object of container.
  * Or an object of options
  */
-function stickyScroll(options) {
-  this.stickyscroll = new StickyScroll(this[0], options);
+function stickyScroller(options) {
+  this.stickyscroller = new StickyScroller(this[0], options);
   return this;
 }
 
 // jQuery plugin (optional)
 if (typeof jQuery !== "undefined") {
-  jQuery.fn.stickyScroll = stickyScroll;
+  jQuery.fn.stickyScroller = stickyScroller;
 }

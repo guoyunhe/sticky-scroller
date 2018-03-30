@@ -1,5 +1,5 @@
 /*
- * StickyScroll - scroll your very long sticky positioned sidebar
+ * StickyScroller - scroll your very long sticky positioned sidebar
  *
  * Copyright 2018 Guo Yunhe <guoyunhebrave@gmail.com>
  *
@@ -18,9 +18,9 @@
  */
 
 /**
- * StickyScroll main controller
+ * StickyScroller main controller
  */
-class StickyScroll {
+class StickyScroller {
   constructor(element, options) {
     this.newScrollPosition = 0;
     this.oldScrollPositon = 0;
@@ -31,7 +31,7 @@ class StickyScroll {
     } else if (element instanceof HTMLElement) {
       this.element = element;
     } else {
-      console.error("StickyScroll: element is required.");
+      console.error("StickyScroller: element is required.");
       return;
     }
 
@@ -72,4 +72,4 @@ class StickyScroll {
   }
 }
 
-module.exports = StickyScroll;
+module.exports = StickyScroller;

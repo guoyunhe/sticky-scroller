@@ -1,4 +1,4 @@
-# sticky-scroll
+# Sticky Scroller
 
 Scroll your very long sticky positioned sidebar.
 
@@ -63,31 +63,31 @@ JavaScript syncronize scrolling of page and sticky sidebar.
 Install with NPM.
 
 ```
-npm install sticky-scroll --save
+npm install sticky-scroller --save
 ```
 
 Import with Webpack or Browserify.
 
 ```js
 // Old way
-var StickyScroll = require("sticky-scroll");
+var StickyScroller = require("sticky-scroller");
 
 // New way
-import StickyScroll from "sticky-scroll";
+import StickyScroller from "sticky-scroller";
 ```
 
 ### Download and Link
 
-Download latest release and unpack, you will need `dist/sticky-scroll.js`.
+Download latest release and unpack, you will need `dist/sticky-scroller.js`.
 
 Link it in HTML.
 
 ```html
 <!-- Option 1: Vanilla JavaScript -->
-<script src="path/to/sticky-scroll/dist/sticky-scroll.js"></script>
+<script src="path/to/sticky-scroller/dist/sticky-scroller.js"></script>
 
 <!-- Option 2: use jQuery plugin (not recommended) -->
-<script src="path/to/sticky-scroll/dist/sticky-scroll.jquery.js"></script>
+<script src="path/to/sticky-scroller/dist/sticky-scroller.jquery.js"></script>
 ```
 
 ### RequireJS
@@ -95,18 +95,18 @@ Link it in HTML.
 AMD package is build for you if you prefer RequireJS.
 
 ```html
-<script src="path/to/sticky-scroll/dist/sticky-scroll.amd.js"></script>
+<script src="path/to/sticky-scroller/dist/sticky-scroller.amd.js"></script>
 ```
 
 ```js
-requirejs(["StickyScroll"], function(StickyScroll) {
+requirejs(["StickyScroller"], function(StickyScroller) {
   // What ever you like
 });
 ```
 
 ### SystemJS
 
-UMD module is placed at `dist/sticky-scroll.umd.js`
+UMD module is placed at `dist/sticky-scroller.umd.js`
 
 ## Usage
 
@@ -124,18 +124,18 @@ by JavaScript.
 ```
 
 ```js
-const scroller = new StickyScroll(".my-sidebar");
+const scroller = new StickyScroller(".my-sidebar");
 ```
 
 If you prefer to use it with jQuery:
 
 ```js
-$(".my-sidebar").stickyScroll();
+$(".my-sidebar").stickyScroller();
 ```
 
 ## API
 
-### StickyScroll(element, options)
+### StickyScroller(element, options)
 
 Constructor of main controller.
 

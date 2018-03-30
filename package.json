@@ -1,5 +1,5 @@
 {
-  "name": "sticky-scroll",
+  "name": "sticky-scroller",
   "version": "0.1.0",
   "description": "Scroll your very long sticky positioned sidebar",
   "main": "index.js",
@@ -9,20 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guoyunhe/sticky-scroll.git"
+    "url": "git+https://github.com/guoyunhe/sticky-scroller.git"
   },
-  "keywords": [
-    "css",
-    "sticky-position",
-    "sticky-sidebar",
-    "scroll"
-  ],
+  "keywords": ["css", "sticky-position", "sticky-sidebar", "scroll"],
   "author": "Guo Yunhe",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/guoyunhe/sticky-scroll/issues"
+    "url": "https://github.com/guoyunhe/sticky-scroller/issues"
   },
-  "homepage": "https://github.com/guoyunhe/sticky-scroll#readme",
+  "homepage": "https://github.com/guoyunhe/sticky-scroller#readme",
   "devDependencies": {
     "webpack": "^4.3.0",
     "webpack-cli": "^2.0.13"

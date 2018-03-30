@@ -9,8 +9,8 @@ module.exports = [
     entry: "./index.js",
     output: {
       path: path.resolve(__dirname, "dist"),
-      library: "StickyScroll",
-      filename: "sticky-scroll.js"
+      library: "StickyScroller",
+      filename: "sticky-scroller.js"
     }
   },
 
@@ -22,7 +22,7 @@ module.exports = [
     entry: "./jquery.js",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "sticky-scroll.jquery.js"
+      filename: "sticky-scroller.jquery.js"
     }
   },
 
@@ -33,8 +33,8 @@ module.exports = [
     entry: "./index.js",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "sticky-scroll.amd.js",
-      library: "StickyScroll",
+      filename: "sticky-scroller.amd.js",
+      library: "StickyScroller",
       libraryTarget: "amd"
     }
   },
@@ -46,8 +46,8 @@ module.exports = [
     entry: "./index.js",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "sticky-scroll.umd.js",
-      library: "StickyScroll",
+      filename: "sticky-scroller.umd.js",
+      library: "StickyScroller",
       libraryTarget: "umd"
     }
   }
