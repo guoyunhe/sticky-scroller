@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = [
   // VAR
   // Load through link and use as variable without import
+  // Do NOT use it with Webpack or Browserify
   {
     mode: "production",
     entry: "./index.js",
@@ -10,6 +11,18 @@ module.exports = [
       path: path.resolve(__dirname, "dist"),
       library: "StickyScroll",
       filename: "sticky-scroll.js"
+    }
+  },
+
+  // VAR NO EXPORTS - jQuery Plugin
+  // Load through link and use as jQuery plugin
+  // Do NOT use it with Webpack or Browserify
+  {
+    mode: "production",
+    entry: "./jquery.js",
+    output: {
+      path: path.resolve(__dirname, "dist"),
+      filename: "sticky-scroll.jquery.js"
     }
   },
 

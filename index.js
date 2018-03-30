@@ -54,15 +54,3 @@ class StickyScroll {
 }
 
 export default StickyScroll;
-
-// jQuery plugin (optional)
-if (typeof jQuery !== "undefined") {
-  /**
-   * @param {string} options Selector or element or jQuery object of container.
-   * Or an object of options
-   */
-  jQuery.fn.stickyScroll = function(options) {
-    this.stickyscroll = new StickyScroll(this[0], options);
-    return this;
-  };
-}
