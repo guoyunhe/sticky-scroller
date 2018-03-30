@@ -1,6 +1,6 @@
 {
   "name": "sticky-scroller",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Scroll your very long sticky positioned sidebar",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/guoyunhe/sticky-scroller.git"
   },
-  "keywords": ["css", "sticky-position", "sticky-sidebar", "scroll"],
+  "keywords": [
+    "css",
+    "sticky-position",
+    "sticky-sidebar",
+    "scroll"
+  ],
   "author": "Guo Yunhe",
   "license": "GPL-3.0",
   "bugs": {
