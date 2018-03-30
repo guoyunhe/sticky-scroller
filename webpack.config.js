@@ -7,7 +7,20 @@ module.exports = [
     entry: "./index.js",
     output: {
       path: path.resolve(__dirname, "dist"),
+      library: "StickyScroll",
       filename: "sticky-scroll.js"
+    }
+  },
+
+  // AMD
+  {
+    mode: "production",
+    entry: "./index.js",
+    output: {
+      path: path.resolve(__dirname, "dist"),
+      filename: "sticky-scroll.amd.js",
+      library: "StickyScroll",
+      libraryTarget: "amd"
     }
   },
 
