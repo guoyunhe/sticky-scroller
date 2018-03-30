@@ -64,27 +64,7 @@ if (typeof jQuery !== "undefined") {
    * Or an object of options
    */
   jQuery.fn.stickyScroll = function(options) {
-    if (!options) {
-      this.sticky = new StickyScroll({
-        sidebar: this[0]
-      });
-    } else if (typeof options === "string" || options instanceof HTMLElement) {
-      this.sticky = new StickyScroll({
-        sidebar: this[0],
-        container: options
-      });
-    } else if (options instanceof jQuery) {
-      this.sticky = new StickyScroll({
-        sidebar: this[0],
-        container: options[0]
-      });
-    } else {
-      this.stocky = new StickyScroll({
-        ...options,
-        sidebar: this[0]
-      });
-    }
-
+    this.stickyscroll = new StickyScroll(this[0], options);
     return this;
   };
 }
