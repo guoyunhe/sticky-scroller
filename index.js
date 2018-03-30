@@ -42,10 +42,12 @@ class StickyScroll {
   translate() {
     const parentRect = this.element.parentElement.getBoundingClientRect();
     const distance = this.newScrollPosition - this.oldScrollPositon;
-    if (parentRect.top > 0) {
+    // Do not scroll up before sticky period
+    if (parentRect.top > 0 && distance > 0) {
       return;
     }
-    if (parentRect.bottom < window.innerHeight) {
+    // Do not scroll down after sticky period
+    if (parentRect.bottom < window.innerHeight && distance < 0) {
       return;
     }
     this.element.scrollTop = this.element.scrollTop + distance;
