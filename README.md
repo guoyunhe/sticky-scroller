@@ -11,13 +11,9 @@ page, navbar/header/sidebar can magically switch between `static` and `fixed`
 position. Usually, height of sticky element is smaller than viewport height. It
 means you do not need to scroll the content of sticky element.
 
-[image]
-
 However, when you have a sidebar with a long list and it is not able to show all
 content in viewport, `position: sticky` cannot help with this. When you scroll
 the page, sidebar content doesn't scroll.
-
-[image]
 
 You may come up with a quick solution:
 
@@ -32,6 +28,8 @@ sidebar {
 ```
 
 Then you can scroll sidebar content, right?
+
+![Screenshot](https://i.imgur.com/gijYunB.png)
 
 Here are some disadvantages of above solution:
 
