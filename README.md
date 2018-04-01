@@ -2,6 +2,8 @@
 
 Scroll your very long sticky positioned sidebar.
 
+![Imgur](https://i.imgur.com/xZVvf9v.gifv)
+
 ## Why do we need JavaScript?
 
 `position: sticky` is a very useful and interesting CSS3 feature. When scrolling
