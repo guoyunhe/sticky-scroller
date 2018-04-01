@@ -2,7 +2,7 @@
 
 Scroll your very long sticky positioned sidebar.
 
-![Imgur](https://i.imgur.com/xZVvf9v.gifv)
+![Screen recording](https://thumbs.gfycat.com/VigorousMiniatureHerculesbeetle-size_restricted.gif)
 
 ## Why do we need JavaScript?
 
