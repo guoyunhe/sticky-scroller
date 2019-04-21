@@ -1,8 +1,8 @@
 {
   "name": "sticky-scroller",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Scroll your very long sticky positioned sidebar",
-  "main": "dist/sticky-scroller.js",
+  "main": "dist/sticky-scroller.umd.js",
   "module": "index.js",
   "scripts": {
     "build": "webpack",
