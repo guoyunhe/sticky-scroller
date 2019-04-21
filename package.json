@@ -1,8 +1,9 @@
 {
   "name": "sticky-scroller",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Scroll your very long sticky positioned sidebar",
-  "main": "index.js",
+  "main": "dist/sticky-scroller.js",
+  "module": "index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
