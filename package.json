@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/guoyunhe/sticky-scroller#readme",
   "devDependencies": {
-    "webpack": "^4.3.0",
-    "webpack-cli": "^3.3.0"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
